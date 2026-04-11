@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <title>Contact</title>
 </head>
 <body>
-    <h1>This is my Contacts Page!</h1>
     <nav>
     <a href="../index.html">Home</a>
     <a href="../projects/index.html">Projects</a>
-    <a href="index.html">Contact</a>
+    <a href="index.html" class = "current">Contact</a>
     <a href="../resume/index.html">Resume</a>
     <a href="https://github.com/v1zhu" target="_blank">Profile</a>
     </nav>
+    <h1>This is my Contacts Page!</h1>
     <form action="mailto: v1zhu@ucsd.edu" method = "post" enctype = "text/plain">
-        <label>Email
+        <label>Email:
             <input name = "email" type = "email">
         </label>
-        <label>Subject
+        <label>Subject:
             <input name = "subject">
         </label>
-        <label>Body
+        <label>Body:
             <textarea name = "body"></textarea>
         </label>
-        <button>Submit</button>
+        <button>Send</button>
     </form>
 </body>
 </html> 
