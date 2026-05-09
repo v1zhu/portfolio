@@ -200,3 +200,137 @@ h1, h2, h3, h4, h5, h6 {
 .selected .swatch {
   background-color: var(--color);
 }
+
+.summary-section {
+  margin: 2rem 0;
+}
+
+.summary-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+}
+
+.stats dt {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 0.35rem;
+}
+
+.stats dd {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.gridlines line {
+  stroke: currentColor;
+  stroke-opacity: 0.15;
+}
+
+.gridlines path {
+  display: none;
+}
+
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem 1rem;
+
+  margin: 0;
+  padding: 1rem;
+
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+dl.info dt {
+  margin: 0;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+dl.info dd {
+  margin: 0;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+
+  background: canvas;
+  color: canvastext;
+
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  border-radius: 8px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+  pointer-events: none;
+  z-index: 1000;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8; /* 5 + 3 */
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+#language-breakdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.language-item {
+  padding: 0.5rem;
+}
+
+.language-item dt {
+  font-weight: 700;
+  margin: 0;
+}
+
+.language-item dd {
+  margin: 0.25rem 0 0 0;
+  opacity: 0.8;
+}

@@ -4,12 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <!-- <script type="module" src="../global.js"></script> -->
     <script src="../global.js" type="module"></script>
+    <script src="main.js" type="module"></script>   
     <title>Meta</title>
 </head>
 <body>
     <h1>This is my Meta Page!</h1>
     <p> Here you can find stats about the code of this website.</p>
+    <h2 class="summary-title">Summary</h2>
+    <div id="stats"></div>
+
+    <h2>Commits by time of day</h2>
+    <div id="chart"></div>
+
+    <dl id="commit-tooltip" class="info tooltip" hidden>
+        <dt>Commit</dt>
+        <dd>
+            <a href="" id="commit-link" target="_blank"></a>
+        </dd>
+        
+        <dt>Date</dt>
+        <dd id="commit-date"></dd>
+
+  <!-- Add: Time, author, lines edited -->
+    </dl>
+    <p id="selection-count">No commits selected</p> 
+    <dl id="language-breakdown" class="stats"></dl>
+
 </body>
 </html>
