@@ -3,72 +3,84 @@
         "title": "Stackbot",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "Chatbot using Stack Overflow data."
     },
     {
         "title": "Custom Image and Audio Processing Framework",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "basic image processing application"
     },
     {
         "title": "Friends Reboot Analysis",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "Analysing potential of a Friends reboot using data from the original show for DSC 10"
     },
     {
         "title": "Buzz or bust",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "Song Prediction webgame"
     },
     {
         "title": "Disaster Vs Supplier",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "How does the disaster count in different countries affect the supplier count?"
     },
     {
         "title": "Bestsellers Books",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "Illum, hic ea. Aut ab ipsa vero quod reprehenderit aperiam et fugit sint eveniet quibusdam! Et voluptas nihil sapiente hic ipsa, nobis reprehenderit quas perferendis odit, eos atque quibusdam mollitia."
     },
     {
         "title": "Power Outage",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "Can you predict the power outage duration based on the weather conditions?"
     },
     {
         "title": "Custom DataFrame",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "Built a custom DataFrame class using Java that mimics the functionality of pandas."
     },
     {
-        "title": "Provident quaerat quam labore.",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ut dicta unde, nam hic consectetur, impedit voluptatibus porro voluptatem libero laborum, aut reiciendis iure error fugit! Soluta, ratione aliquam. Corrupti optio sed pariatur cupiditate quam veniam officia, iure a?"
+        "title": "BikeWatching.",
+        "year": "2026",
+        "image": "../images/Bikewatching.png",
+        "url": "https://v1zhu.github.io/bikewatching/",
+        "description": "Bikewatching is a project that looks at bike activity in the area of Boston, MA. It uses data from the Bluebikes bike-sharing program to analyze patterns in bike usage, such as peak usage times, and the the departures and arrivals at bike stations."
     },
     {
         "title": "Recusandae soluta rem esse?",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "Maxime voluptates nobis saepe deleniti quis tempore, ullam vitae reiciendis est voluptate quos voluptatem, a aliquid quas nihil non doloribus odit ipsum delectus atque. Voluptate nam dignissimos molestiae a minus."
     },
     {
         "title": "Culpa officia molestias reprehenderit.",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "Iure ipsam perspiciatis fugit ex non cumque sed dignissimos expedita quod commodi repudiandae eaque quo reprehenderit, unde porro deserunt, molestiae magnam deleniti impedit libero aliquid. Molestiae laborum culpa sequi dolore!"
     },
     {
         "title": "Voluptatum doloribus sunt pariatur.",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "url": "",
         "description": "Eius porro natus autem, amet reprehenderit debitis, voluptatum excepturi molestiae facere quas voluptates nam consequatur ratione ut sequi odio. Sed nesciunt maiores sint quis quidem pariatur ullam consectetur consequatur eius."
     }
 ]
