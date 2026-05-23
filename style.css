@@ -293,6 +293,12 @@ circle {
   transform-box: fill-box;
 }
 
+circle {
+  @starting-style {
+    r: 0;
+  }
+}
+
 circle:hover {
   transform: scale(1.5);
 }
@@ -340,3 +346,112 @@ article img {
   height: 200px; /* or whatever height the other images appear at */
   object-fit: cover;
 }
+
+.time-filter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#commit-progress {
+  width: 100%;
+}
+
+#commit-time {
+  align-self: flex-end; /* pushes date to right */
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+
+#files {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+  > div {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+
+  dt {
+    grid-column: 1;
+  }
+
+  dd {
+    grid-column: 2;
+  }
+}
+
+.loc {
+  display: flex;
+  width: 0.5em;
+  aspect-ratio: 1;
+  background: var(--color);
+  border-radius: 50%;
+}
+
+dd {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: start;
+  gap: 0.15em;
+  padding-top: 0.6em;
+  margin-left: 0;
+}
+
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  > * {
+    flex: 1;
+  }
+}
+
+#scatter-story {
+  position: relative;
+}
+
+#scatter-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 50vh;
+}
+
+#scrolly-2 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  > * {
+    flex: 1;
+  }
+}
+
+#files-story {
+  position: relative;
+}
+
+/* #scatter-story .step {
+  padding-bottom: 50vh;
+}
+
+#files-story .step {
+  padding-bottom: 1rem;
+} */
+
+#files-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 50vh;
+  overflow-y: auto;
+}
+
